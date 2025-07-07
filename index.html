@@ -1,70 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>SEDNE SEA FOOD</title>
   <style>
-    body { margin: 0; font-family: Arial, sans-serif; background-color: #f5f9f6; color: #333; }
-    header { background-color: #006666; color: white; padding: 2rem 1rem; text-align: center; }
-    .hero { background: url('https://images.unsplash.com/photo-1561043433-aaf687c4cf4e') center/cover no-repeat; height: 400px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem; font-weight: bold; }
-    section { padding: 3rem 1rem; max-width: 1100px; margin: auto; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
-    .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .card img { width: 100%; height: 180px; object-fit: cover; }
-    .card h3 { margin: 1rem; color: #006666; }
-    .card p { margin: 0 1rem 1rem; font-size: 0.95rem; line-height: 1.5; }
-    footer { background: #004d4d; color: white; text-align: center; padding: 2rem 1rem; }
-    footer p { margin: 0.3rem 0; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f3d0f; /* أخضر داكن */
+      color: white; /* النص أبيض */
+    }
+    header {
+      background-color: #135c13;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 1.8em;
+      color: #ffffff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background-color: #1d5d1d;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px #00000030;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #0f3d0f;
+      color: #fff;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.95em;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>SEDNE SEA FOOD</h1>
-    <p>Quality Seafood Distribution & Services</p>
-  </header>
 
-  <div class="hero">
-    Freshness from the Sea to Your Business
-  </div>
+<header>
+  <h1>SEDNE SEA FOOD</h1>
+</header>
 
-  <section>
-    <h2>Our Services</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1601320466595-c3f43de4199a" alt="Fish processing">
-        <h3>Wholesale Seafood</h3>
-        <p>Reliable sourcing and bulk distribution of quality seafood products.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836" alt="Seafood logistics">
-        <h3>Cold Chain Logistics</h3>
-        <p>Temperature-controlled delivery to ensure freshness on arrival.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1623498173727-42d819b343f7" alt="Quality control">
-        <h3>Quality Assurance</h3>
-        <p>Strict standards to meet international quality and hygiene protocols.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1598515213693-0b34ef21de09" alt="Export services">
-        <h3>Export Services</h3>
-        <p>Supporting international trade with efficient export documentation and compliance.</p>
-      </div>
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1602872029510-160350f9f34e" alt="Seafood variety">
-        <h3>Product Variety</h3>
-        <p>A diverse selection of seafood tailored to client needs and seasonal availability.</p>
-      </div>
+<section>
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604908177225-270bbadfdb9c" alt="Seafood Export">
+      <h3>Seafood Export</h3>
+      <p>We export fresh and high-quality seafood across various international markets.</p>
     </div>
-  </section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="Frozen Fish">
+      <h3>Frozen Fish Supply</h3>
+      <p>Reliable supply of frozen fish products to wholesalers and retailers.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1586201375761-83865001e31b" alt="Local Distribution">
+      <h3>Local Distribution</h3>
+      <p>Fast and efficient distribution channels throughout Morocco.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1568051243853-6d507c6611e8" alt="Quality Assurance">
+      <h3>Quality Assurance</h3>
+      <p>Strict standards to ensure top-notch quality in every shipment.</p>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1553268190-82a77f2c38fc" alt="Packaging Services">
+      <h3>Packaging Services</h3>
+      <p>Custom packaging for domestic and export requirements.</p>
+    </div>
+  </div>
+</section>
 
-  <footer>
-    <h2>Contact</h2>
-    <p>Email: contact@thotas.shop</p>
-    <p>Phone: +212695928760</p>
-    <p>Location: N 71 ANZA QUARTIER ANNAHDA AGADIR, 80030 Morocco</p>
-    <p>&copy; 2025 SEDNE SEA FOOD. All rights reserved.</p>
-  </footer>
+<footer>
+  <p>Email: contact@thotas.shop</p>
+  <p>Phone: +212695928760</p>
+  <p>Location: N 71 Anza Quartier Annahda, Agadir, 80030, Morocco</p>
+  <p>© 2025 SEDNE SEA FOOD. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
